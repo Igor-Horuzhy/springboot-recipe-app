@@ -21,7 +21,7 @@ import static org.mockito.Mockito.when;
  */
 public class RecipeServiceImplTest {
 
-    RecipeServiceImpl recipeService;
+    RecipeService recipeService;
 
     @Mock
     RecipeRepository recipeRepository;
