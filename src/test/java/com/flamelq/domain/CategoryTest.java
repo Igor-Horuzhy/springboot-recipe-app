@@ -4,8 +4,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 /**
  * @author Ihar Kharuzhy
  * 3/30/2018.
@@ -16,7 +14,7 @@ public class CategoryTest {
     Category category;
 
     @Before
-    public void setUp(){
+    public void setUp() {
         category = new Category();
     }
 
