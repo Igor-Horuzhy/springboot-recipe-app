@@ -125,4 +125,3 @@ public class IngredientServiceImplTest {
         verify(recipeRepository, times(1)).save(any(Recipe.class));
     }
 }
-}
